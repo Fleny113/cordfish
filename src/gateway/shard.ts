@@ -73,7 +73,7 @@ export class Shard {
         return;
     }
 
-    #handleMessage({ data }: MessageEvent) {
+    async #handleMessage({ data }: MessageEvent) {
         const message: DiscordGatewayMessage = JSON.parse(data);
 
         // Some opcodes / events require some internal handling, so we do it in here
@@ -86,9 +86,7 @@ export class Shard {
                     break;
                 }
 
-                setTimeout(() => {
-                    this.#identify();
-                }, 1000);
+                this.#identify();
 
                 break;
             }
