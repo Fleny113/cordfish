@@ -9,6 +9,9 @@
         "import": "./dist/index.js",
         "types": "./dist/index.d.ts"
     },
+    "scripts": {
+        "build": "tsc --build"
+    },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
         "@types/node": "^22.5.4",
