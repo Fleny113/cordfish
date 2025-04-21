@@ -11,6 +11,9 @@
         "rootDir": "./src",
         "outDir": "./dist",
         "newLine": "lf",
+        "allowImportingTsExtensions": true,
+        "rewriteRelativeImportExtensions": true,
+        "erasableSyntaxOnly": true,
         "isolatedModules": true,
         "verbatimModuleSyntax": true,
         "esModuleInterop": true,
@@ -35,5 +38,7 @@
         "skipDefaultLibCheck": true,
         "skipLibCheck": true
     },
-    "include": ["./src/**/*"]
+    "include": [
+        "./src/**/*"
+    ]
 }

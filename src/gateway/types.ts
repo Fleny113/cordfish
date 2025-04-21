@@ -1,4 +1,4 @@
-import type { ObjectValues } from "../types.js";
+import type { ObjectValues } from "../types.ts";
 
 /** https://discord.com/developers/docs/topics/gateway#list-of-intents */
 export const GatewayIntents = {

@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "description": "A very unsable discord library.",
     "author": "Fleny113",
-    "packageManager": "pnpm@9.9.0",
+    "packageManager": "pnpm@10.9.0",
     "type": "module",
     "exports": {
         "import": "./dist/index.js",
@@ -13,8 +13,8 @@
         "build": "tsc --build"
     },
     "devDependencies": {
-        "@biomejs/biome": "^1.8.3",
-        "@types/node": "^22.5.4",
-        "typescript": "^5.5.4"
+        "@biomejs/biome": "^1.9.4",
+        "@types/node": "^22.14.1",
+        "typescript": "^5.8.3"
     }
 }
